@@ -1,0 +1,1416 @@
+
+.container {
+    width: 94%;
+    max-width: none;
+    margin: auto;
+}
+
+
+:root {
+  --brand-purple: #b36bea;
+  --brand-purple-dark: #9743d7;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.navbar {
+  background-color: #F7F6F4;
+  padding: 18px 40px;
+}
+
+.navbar-brand img {
+  height: 60px; 
+}
+
+.nav-link {
+  color: #1f1f1f !important;
+  font-weight: 500;
+  margin: 0 12px;
+}
+
+.nav-link:hover {
+  color: var(--brand-purple) !important;
+}
+
+.search-icon {
+  width: 22px;
+  height: 22px;
+  margin-inline-end: 24px;
+  cursor: pointer;
+}
+
+.btn-signup {
+  box-sizing: border-box;
+  background-color: var(--brand-purple);
+  color: #fff;
+  border: 1px solid var(--brand-purple);
+  border-radius: 16px;
+  height: 46px;
+  width: 150px;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.btn-signup svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.btn-signup:hover {
+  background-color: var(--brand-purple-dark);
+  color: #fff;
+}
+
+.btn-login {
+  box-sizing: border-box;
+  background-color: transparent;
+  color: var(--brand-purple);
+  border: 1px solid #d8d2f8;
+  border-radius: 16px;
+  height: 46px;
+  width: 150px;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline-start: 12px;
+  white-space: nowrap;
+}
+
+.btn-login:hover {
+  background-color: #f5f3ff;
+  color: var(--brand-purple);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-color: #F7F6F4;
+  font-family: 'Poppins', sans-serif;
+}
+.hero-section {
+  padding: 80px 0;
+}
+
+/* البادچ (Badge) العلوي */
+.hero-badge {
+  background-color: #FFFFFF;
+  color: #6C4FE0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 12px 22px;
+}
+
+.hero-badge i {
+  color: #6C4FE0;
+  font-size: 0.75rem;
+}
+
+/* العنوان الرئيسي */
+.hero-title {
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
+  font-weight: 700;
+  color: #1E1B2E;
+  line-height: 1.25;
+}
+
+.hero-title .highlight {
+  color: #8B5CF6;
+}
+
+.hero-title .highlight-gradient {
+  background: linear-gradient(90deg, #8B5CF6 0%, #8B5CF6 20%, #4C1D95 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* الأزرار */
+.btn-primary-cta {
+  background-color: #9743d7;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 14px 32px;
+  border: none;
+}
+
+.btn-primary-cta:hover {
+  background-color: #7c26a4;
+  color: #FFFFFF;
+}
+
+.btn-secondary-cta {
+  background-color: #FFFFFF;
+  color: #1E1B2E;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 14px 28px;
+  border: 1px solid #E5E1F5;
+}
+
+.btn-secondary-cta:hover {
+  background-color: #F7F6F4;
+  color: #1E1B2E;
+}
+
+.btn-secondary-cta .play-icon {
+  width: 26px;
+  height: 26px;
+  background-color: #EFEBFB;
+  color: #6C4FE0;
+  border-radius: 50%;
+}
+
+/* صور المستخدمين المتراكبة */
+.avatar-group {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-group img,
+.avatar-group .avatar-count {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #F7F6F4;
+  object-fit: cover;
+  margin-left: -12px;
+}
+
+.avatar-group img:first-child {
+  margin-left: 0;
+}
+
+.avatar-group .avatar-count {
+  background-color: #9743d7;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* النجوم + النص */
+.rating-stars i {
+  color: #FBBF24;
+  font-size: 0.85rem;
+}
+
+.trusted-text {
+  color: #6B7280;
+  font-size: 0.8rem;
+}
+
+/* الصورة الرئيسية */
+.hero-image-wrapper {
+  position: relative;
+   width: 70%; 
+   margin-left: auto;
+}
+
+.hero-image-wrapper img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* الكروت العائمة */
+.floating-card {
+  position: absolute;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 12px 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.floating-card .icon-circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+.floating-card .card-label {
+  font-size: 0.7rem;
+  color: #6B7280;
+  margin-bottom: 2px;
+}
+
+.floating-card .card-value {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+/* كارت الطلاب النشطين */
+.card-students {
+  top: 40px;
+  left: 30px;
+}
+
+.card-students .icon-circle {
+  background-color: #DCFCE7;
+  color: #16A34A;
+}
+
+/* كارت التقييم */
+.card-rating {
+  bottom: 40px;
+  right: 30px;
+}
+
+.card-rating .icon-circle {
+  background-color: #FEF3C7;
+  color: #F59E0B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.courses-eyebrow {
+  color: #6C4FE0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.courses-eyebrow i {
+  margin-right: 6px;
+}
+
+.courses-subtext {
+  font-family: 'Poppins', sans-serif;
+  color: #6B7280;
+  font-size: 0.8rem;    
+  max-width: 320px;
+}
+
+
+.courses-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #1E1B2E;
+  text-align: center;
+}
+
+.courses-title .highlight {
+  color: #6C4FE0;
+}
+
+
+.view-all-link {
+  color: #6C4FE0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.view-all-link:hover {
+  color: #5A3FC0;
+}
+
+.filter-btn {
+  background-color: #FFFFFF;
+  color: #1E1B2E;
+  border: 1px solid #E5E1F5;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 8px 20px;
+  border-radius: 15px;    /* زودناها كتير عشان تبقى مدورة أكتر */
+}
+
+.filter-btn.active {
+  background-color: #6C4FE0;
+  color: #FFFFFF;
+  border-color: #6C4FE0;
+  padding: 6px 16px;      /* أصغر شوية من باقي الأزرار */
+  font-size: 0.8rem;      /* خط أصغر شوية كمان */
+}
+
+
+.filter-btn:hover {
+  border-color: #6C4FE0;
+}
+
+.filter-buttons-wrap {
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+.course-card {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;    /* ضفنا السطر ده عشان الحركة تكون ناعمة */
+}
+
+.course-card:hover {
+  transform: translateY(-14px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+}
+
+.course-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.course-card-body {
+  padding: 18px;
+}
+
+.course-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.course-card-instructor {
+  color: #6B7280;
+  font-size: 0.85rem;
+}
+
+
+
+.course-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+}
+
+.course-card-rating .stars i {
+  color: #FBBF24;
+  font-size: 0.75rem;
+}
+
+.course-card-rating .rating-number {
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.course-card-rating .rating-count {
+  color: #9CA3AF;
+}
+
+.course-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #6B7280;
+  font-size: 0.8rem;
+}
+
+.course-card-meta span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.course-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-card-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.enroll-btn {
+  background-color: #EFEBFB;
+  color: #6C4FE0;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 20px;
+}
+
+.enroll-btn:hover {
+  background-color: #6C4FE0;
+  color: #FFFFFF;
+}
+
+
+.courses-footer-text {
+  color: #1E1B2E;    /* غيرناه من رمادي لأسود */
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.load-more-btn {
+  background-color: #FFFFFF;
+  color: #6C4FE0;
+  border: 1px solid #6C4FE0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 24px;
+  border-radius: 12px;    /* غيرناها من 20px لـ 8px - شكل مربع بسيط */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.load-more-btn:hover {
+  background-color: #6C4FE0;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categories-section {
+  padding: 80px 0;
+  margin-top: 80px;    /* ضفنا السطر ده */
+}
+
+.categories-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #1E1B2E;
+  text-align: center;
+}
+
+.categories-subtext {
+  color: #6B7280;
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.category-card {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #E5E1DC;
+  padding: 30px 36px;    /* كبرنا بنفس النسبة تقريبًا */
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-color: #D8D2F8;
+}
+
+.category-icon {
+  width: 60px;            /* كبرناها من 48px */
+  height: 60px;
+  background-color: #EFEBFB;
+  color: #6C4FE0;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;      /* كبرناها من 1.3rem */
+  margin: 0 auto 16px;
+}
+
+.category-name {
+  font-size: 1.15rem;     /* كبرناها من 1rem */
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.category-count {
+  color: #6B7280;
+  font-size: 0.9rem;      /* كبرناها من 0.8rem */
+}
+
+
+.view-categories-btn {
+  background-color: #FFFFFF;
+  color: #6C4FE0;
+  border: 1px solid #6C4FE0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 24px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.view-categories-btn:hover {
+  background-color: #6C4FE0;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.how-it-works-section {
+  padding: 60px 0;
+  padding-top: 100px;
+}
+
+.how-eyebrow {
+  color: #6C4FE0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.how-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #1E1B2E;
+  text-align: center;
+}
+
+.how-subtext {
+  color: #6B7280;
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+
+
+
+.step-item {
+  text-align: center;
+  position: relative;
+  margin-top: 60px;    /* زودناها من 30px */
+}
+
+.step-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFEBFB;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 22px;
+  position: relative;
+  box-shadow: 0 15px 35px rgba(108, 79, 224, 0.18);   /* زودنا الظل */
+}
+
+.step-icon-wrapper .step-icon {
+  width: 64px;           /* كبرناها من 56px */
+  height: 64px;
+  background-color: #EFEBFB;
+  color: #6C4FE0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;     /* كبرناها من 1.4rem */
+}
+
+.step-number {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 28px;           /* كبرناها شوية */
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.step-title {
+  font-size: 1.2rem;     /* كبرناها من 1.1rem */
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.step-description {
+  color: #6B7280;
+  font-size: 0.9rem;     /* كبرناها من 0.85rem */
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+
+.step-item:nth-child(1) .step-number {
+  background-color: #F59E0B;
+}
+
+.step-item:nth-child(2) .step-number {
+  background-color: #6C4FE0;
+}
+
+.step-item:nth-child(3) .step-number {
+  background-color: #16A34A;
+}
+
+.step-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFEBFB;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 22px;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(108, 79, 224, 0.1);   /* ضفنا السطر ده */
+}
+
+
+
+.steps-row {
+  position: relative;
+}
+
+.steps-row::before {
+  content: '';
+  position: absolute;
+  top: 110px;              /* زودناه من 50px */
+  left: 16.5%;
+  right: 16.5%;
+  height: 3px;
+  background-color: #6C4FE0;
+  z-index: 0;
+}
+
+.step-icon-wrapper {
+  z-index: 1;             /* عشان الدايرة تفضل فوق الخط، مش وراه */
+}
+
+
+
+
+
+
+
+
+
+
+
+.steps-row {
+  position: relative;
+  margin-bottom: 100px;    /* مسافة كبيرة قبل السكشن اللي بعده */
+}
+
+
+.testimonials-section {
+  padding: 60px 0;
+}
+
+.testimonials-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+
+
+
+
+.testimonial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #F0EEEC;
+  border-radius: 20px;
+  padding: 40px 32px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  min-height: 380px;
+  transition: all 0.3s ease;    /* ضفنا السطر ده */
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-stars i {
+  color: #FBBF24;
+  font-size: 1.2rem;
+}
+
+.testimonial-quote-icon {
+  position: absolute;
+  top: 30px;
+  right: 32px;
+  font-size: 4rem;
+  color: #F0EEEC;
+  line-height: 1;
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #4B5563;
+  font-size: 1.05rem;
+  margin-top: 22px;
+  line-height: 1.8;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.testimonial-author img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #1E1B2E;
+}
+
+.testimonial-role {
+  color: #6B7280;
+  font-size: 0.9rem;
+}
+
+
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.instructors-section {
+  padding: 60px 0;
+  margin-top: 60px;
+}
+
+.instructors-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.instructors-subtext {
+  color: #6B7280;
+  font-size: 0.95rem;
+  max-width: 500px;
+}
+
+.see-all-btn {
+  background-color: #FFFFFF;
+  color: #6C4FE0;
+  border: 1px solid #6C4FE0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 22px;
+  border-radius: 15px;
+  white-space: nowrap;
+}
+
+.see-all-btn:hover {
+  background-color: #6C4FE0;
+  color: #FFFFFF;
+}
+
+
+
+
+
+.instructor-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 420px;    /* زودناها من 380px */
+}
+
+.instructor-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.instructor-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0));
+  color: #FFFFFF;
+}
+
+.instructor-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.instructor-role {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-top: 2px;
+}
+
+.instructor-stats {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.instructor-stat {
+  background-color: rgba(255,255,255,0.2);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.instructor-stat .bi-star-fill {
+  color: #FBBF24;
+}
+
+
+
+.instructor-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.instructor-card:hover img {
+  transform: scale(1.08);
+}
+
+
+
+
+
+.instructor-overlay {
+  transition: background 0.3s ease;
+}
+
+.instructor-card:hover .instructor-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-section {
+  padding: 60px 0;
+  margin-top: 40px;
+}
+
+.pricing-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.pricing-title .highlight {
+  color: #6C4FE0;
+}
+
+
+
+.pricing-card {
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);   /* ظل أقوى من قبل */
+  border: 1px solid #EFEBFB;                     /* بردر خفيف يوضح الحواف */
+}
+
+.pricing-card-header {
+  background-color: #F3F0FC;
+  padding: 32px 28px;    /* كبرناها */
+}
+
+.pricing-header-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pricing-icon {
+  width: 44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6C4FE0;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.pricing-plan-name {
+  font-size: 1.2rem;     /* كبرناها */
+  font-weight: 700;
+  color: #1E1B2E;
+}
+
+.pricing-plan-desc {
+  font-size: 0.85rem;    /* كبرناها */
+  color: #6B7280;
+}
+
+.pricing-price {
+  font-size: 2rem;       /* صغرناها من 2.8rem */
+  font-weight: 700;
+  color: #1E1B2E;
+  margin-top: 18px;
+}
+
+.price-period {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6B7280;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 28px;         /* كبرناها */
+  margin: 0;
+}
+
+.pricing-features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;   /* كبرناها */
+  font-size: 0.95rem;    /* كبرناها */
+  color: #1E1B2E;
+}
+
+.pricing-features li.disabled {
+  color: #B8B4C8;
+}
+
+.feature-check {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  color: #16A34A;         /* لون الصح نفسه أخضر */
+  background-color: transparent;    /* مفيش خلفية خالص */
+}
+
+.pricing-features li.disabled .feature-check {
+  color: #D1D0D6;         /* رمادي فاتح للصح المعطل */
+}
+
+
+
+.pricing-btn {
+  display: block;
+  width: calc(100% - 56px);
+  margin: 0 28px 28px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #EFEBFB;
+  color: #6C4FE0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  text-align: center;
+}
+
+.pricing-btn:hover {
+  background-color: #E0D9F7;
+}
+
+.pricing-card.featured .pricing-btn {
+  background-color: #6C4FE0;
+  color: #FFFFFF;
+}
+
+.pricing-card.featured .pricing-btn:hover {
+  background-color: #5A3FC0 !important;
+  color: #FFFFFF !important;
+}
+
+
+
+
+.pricing-card.featured .pricing-card-header {
+  background-color: #6C4FE0;
+}
+
+.pricing-card.featured .pricing-icon {
+  background-color: rgba(255,255,255,0.2);
+  color: #FFFFFF;
+}
+
+.pricing-card.featured .pricing-plan-name,
+.pricing-card.featured .pricing-price {
+  color: #FFFFFF;
+}
+
+.pricing-card.featured .pricing-plan-desc {
+  color: rgba(255,255,255,0.8);
+}
+
+.pricing-card.featured .price-period {
+  color: rgba(255,255,255,0.7) !important;
+}
+
+
+
+
+.pricing-card {
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  transition: all 1s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-color: #6C4FE0;
+}
+
+.pricing-icon {
+  transition: transform 0.4s ease;
+}
+
+.pricing-card:hover .pricing-icon {
+  transform: rotate(360deg) scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cta-section {
+  position: relative;
+  padding: 80px 20px;
+  margin-top: 60px;
+  background-image: url('https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(124, 58, 237, 0.2);    /* قللنا من 0.75 لـ 0.4 */
+}
+
+.cta-title {
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: 700;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+.cta-subtext {
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: 1rem;
+  max-width: 550px;
+  margin: 16px auto 0;
+}
+
+.cta-btn-primary {
+  background-color: #FFFFFF;
+  color: #6C4FE0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 13px 28px;
+  border-radius: 30px;
+  border: none;
+}
+
+.cta-btn-secondary {
+  background-color: transparent;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 13px 28px;
+  border-radius: 30px;
+  border: 1px solid rgba(255,255,255,0.6);
+}
+
+.cta-buttons {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img {
+  height: 130px;    /* غيّر الرقم ده لحد ما يظبط حجم اللوجو بتاعك */
+}
+
+
+.site-footer {
+  background-color: #3A2A57;    /* اللون الدقيق المستخرج من صورة اللوجو */
+  padding: 60px 0 24px;
+  text-align: center;
+}
+
+
+
+.footer-newsletter-text {
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;    /* كبرناها من 0.95rem */
+  margin-top: 24px;
+}
+
+.footer-email-input {
+  background-color: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 25px;
+  padding: 14px 24px;    /* كبرنا الـ padding شوية */
+  color: #FFFFFF;
+  width: 300px;          /* كبرنا العرض شوية */
+  font-size: 1rem;       /* كبرناها من 0.9rem */
+}
+
+.footer-subscribe-btn {
+  background-color: #6C4FE0;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 13px 30px;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.3s ease;    /* ضفنا السطر ده */
+}
+
+.footer-subscribe-btn:hover {
+  background-color: #5A3FC0;
+  transform: translateY(-3px);    /* يرتفع شوية لما تقف عليه */
+  box-shadow: 0 8px 20px rgba(108, 79, 224, 0.4);
+}
+
+
+
+.footer-links {
+  margin-top: 40px;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.55);    /* درجة رمادي فاتح شفاف بدل الأبيض */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  color: rgba(255,255,255,0.9);     /* يفتح شوية عند الـ hover بس مش أبيض خالص */
+}
+
+.footer-copyright {
+  color: rgba(255,255,255,0.4);
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
+
+
+
+.cta-section,
+footer {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}

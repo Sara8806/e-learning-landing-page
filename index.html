@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>GoDocs Bootsrap</title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+<link rel="shortcut icon" href="images/favicon.jpg" type="image/jpeg">
+<!-- font awesome -->
+<link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+<!-- animate.css -->
+ <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+ <!-- Bootstrap.css -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- style.css -->
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+
+
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+    <img src="./images/Frame 1618873655.png" alt="E-Learning Logo" >
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mb-2 mb-lg-0" style="margin-inline-start: 60px; margin-inline-end: auto;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Instructors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+ 
+        <div class="nav-actions">
+
+    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+    <button class="btn btn-signup" type="button">
+        <i class="fa-regular fa-user"></i>
+        Sign Up
+    </button>
+
+    <button class="btn btn-login" type="button">
+        Login
+    </button>
+
+</div>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+<section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- العمود الشمال: النص -->
+        <div class="col-lg-6">
+
+          <!-- البادچ العلوي -->
+          <span class="hero-badge rounded-pill d-inline-flex align-items-center gap-2 mb-4">
+            <i class="bi bi-star-fill"></i>
+            Over 10,000+ Students Worldwide
+          </span>
+
+          <!-- العنوان الرئيسي -->
+          <h1 class="hero-title">
+            Unlock Your Potential With
+            <span class="d-block">
+              <span class="highlight">Online</span>
+              <span class="highlight-gradient">Learning</span>
+            </span>
+          </h1>
+
+          <!-- الأزرار -->
+          <div class="d-flex align-items-center gap-3 mt-4">
+            <button type="button" class="btn btn-primary-cta rounded-pill">Start Learning Now</button>
+            <button type="button" class="btn btn-secondary-cta rounded-pill d-inline-flex align-items-center gap-2">
+              <span class="play-icon d-inline-flex align-items-center justify-content-center">
+                <i class="bi bi-play-fill"></i>
+              </span>
+              Watch Video
+            </button>
+          </div>
+
+          <!-- صور المستخدمين + التقييم -->
+          <div class="d-flex align-items-center gap-3 mt-4">
+            <div class="avatar-group">
+              <img src="./images/Image (Student).png" alt="Student">
+              <img src="./images/Image (Student) (1).png" alt="Student">
+              <img src="./images/Image (Student) (2).png" alt="Student">
+              <img src="./images/Image (Student) (3).png" alt="Student">
+              <span class="avatar-count">5k+</span>
+            </div>
+
+            <div>
+              <div class="rating-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="trusted-text">Trusted by learners</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- العمود اليمين: الصورة -->
+        <div class="col-lg-6">
+          <div class="hero-image-wrapper">
+            <img src="./images/Container.png" alt="Student learning online">
+
+            
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <section class="courses-section">
+  <div class="container">
+
+    <!-- هيدر السكشن -->
+    <div class="row align-items-center mb-4">
+      <div class="col-lg-4">
+        <div class="courses-eyebrow">
+          <i class="bi bi-graph-up-arrow"></i>Featured Courses
+        </div>
+        <p class="courses-subtext mt-2">
+          Hand-picked courses from our top instructors, loved by thousands of learners worldwide.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="courses-title">
+          Most Popular <span class="highlight">Courses</span>
+        </h2>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <a href="javascript:void(0)" class="view-all-link">View All Courses <i class="bi bi-chevron-right"></i></a>
+      </div>
+    </div>
+
+    <!-- أزرار الفلترة (الجزء الجديد) -->
+    <div class="d-flex gap-2 mt-5 flex-wrap filter-buttons-wrap">
+  <button type="button" class="btn filter-btn active">All</button>
+  <button type="button" class="btn filter-btn">Development</button>
+  <button type="button" class="btn filter-btn">Design</button>
+  <button type="button" class="btn filter-btn">Data Science</button>
+  <button type="button" class="btn filter-btn">Marketing</button>
+  <button type="button" class="btn filter-btn">Business</button>
+</div>
+
+
+
+
+
+
+<div class="row mt-4 g-4">
+
+  <!-- الكارت الأول -->
+  <div class="col-lg-4 col-md-6">
+    <div class="course-card">
+      <img src="./images/Image (Complete Web Development Bootcamp).png" alt="Complete Web Development Bootcamp">
+      <div class="course-card-body">
+        <h5 class="course-card-title">Complete Web Development Bootcamp</h5>
+        <p class="course-card-instructor mt-1">Dr. Sarah Mohamed</p>
+
+        <div class="course-card-rating mt-2">
+          <span class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </span>
+          <span class="rating-number">4.9</span>
+          <span class="rating-count">(12,840)</span>
+        </div>
+
+        <div class="course-card-meta mt-2">
+          <span><i class="bi bi-clock"></i>52h</span>
+          <span><i class="bi bi-people"></i>48k students</span>
+        </div>
+
+        <div class="course-card-footer mt-3">
+          <span class="course-card-price">$89.99</span>
+          <button type="button" class="btn enroll-btn">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الكارت التاني -->
+  <div class="col-lg-4 col-md-6">
+    <div class="course-card">
+      <img src="./images/Container (7).png" alt="Machine Learning & AI Mastery">
+      <div class="course-card-body">
+        <h5 class="course-card-title">Machine Learning &amp; AI Mastery</h5>
+        <p class="course-card-instructor mt-1">Dr. Ahmed Ramy</p>
+
+        <div class="course-card-rating mt-2">
+          <span class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </span>
+          <span class="rating-number">4.9</span>
+          <span class="rating-count">(12,500)</span>
+        </div>
+
+        <div class="course-card-meta mt-2">
+          <span><i class="bi bi-clock"></i>52h</span>
+          <span><i class="bi bi-people"></i>48k students</span>
+        </div>
+
+        <div class="course-card-footer mt-3">
+          <span class="course-card-price">$77.99</span>
+          <button type="button" class="btn enroll-btn">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الكارت التالت -->
+  <div class="col-lg-4 col-md-6">
+    <div class="course-card">
+      <img src="./images/Container (1).png" alt="UI/UX Design: Zero to Pro">
+      <div class="course-card-body">
+        <h5 class="course-card-title">UI/UX Design: Zero to Pro</h5>
+        <p class="course-card-instructor mt-1">Dr. Sarah Ayman</p>
+
+        <div class="course-card-rating mt-2">
+          <span class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </span>
+          <span class="rating-number">4.6</span>
+          <span class="rating-count">(12,840)</span>
+        </div>
+
+        <div class="course-card-meta mt-2">
+          <span><i class="bi bi-clock"></i>52h</span>
+          <span><i class="bi bi-people"></i>48k students</span>
+        </div>
+
+        <div class="course-card-footer mt-3">
+          <span class="course-card-price">$100.99</span>
+          <button type="button" class="btn enroll-btn">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الكارت الرابع -->
+  <div class="col-lg-4 col-md-6">
+    <div class="course-card">
+      <img src="./images/Image (Business Strategy & Leadership).png" alt="Business Strategy & Leadership">
+      <div class="course-card-body">
+        <h5 class="course-card-title">Business Strategy &amp; Leadership</h5>
+        <p class="course-card-instructor mt-1">Dr. Ayman Amgad</p>
+
+        <div class="course-card-rating mt-2">
+          <span class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </span>
+          <span class="rating-number">4.7</span>
+          <span class="rating-count">(12,840)</span>
+        </div>
+
+        <div class="course-card-meta mt-2">
+          <span><i class="bi bi-clock"></i>52h</span>
+          <span><i class="bi bi-people"></i>48k students</span>
+        </div>
+
+        <div class="course-card-footer mt-3">
+          <span class="course-card-price">$97.99</span>
+          <button type="button" class="btn enroll-btn">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الكارت الخامس -->
+  <div class="col-lg-4 col-md-6">
+    <div class="course-card">
+      <img src="./images/Image (Digital Marketing Mastery).png" alt="Digital Marketing Mastery">
+      <div class="course-card-body">
+        <h5 class="course-card-title">Digital Marketing Mastery</h5>
+        <p class="course-card-instructor mt-1">Dr. Sarah Johnson</p>
+
+        <div class="course-card-rating mt-2">
+          <span class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </span>
+          <span class="rating-number">4.9</span>
+          <span class="rating-count">(12,340)</span>
+        </div>
+
+        <div class="course-card-meta mt-2">
+          <span><i class="bi bi-clock"></i>52h</span>
+          <span><i class="bi bi-people"></i>48k students</span>
+        </div>
+
+        <div class="course-card-footer mt-3">
+          <span class="course-card-price">$87.99</span>
+          <button type="button" class="btn enroll-btn">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الكارت السادس -->
+  <div class="col-lg-4 col-md-6">
+    <div class="course-card">
+      <img src="./images/Image (Photography Masterclass).png" alt="Photography Masterclass">
+      <div class="course-card-body">
+        <h5 class="course-card-title">Photography Masterclass</h5>
+        <p class="course-card-instructor mt-1">Dr. Sarah Johnson</p>
+
+        <div class="course-card-rating mt-2">
+          <span class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </span>
+          <span class="rating-number">4.9</span>
+          <span class="rating-count">(11,840)</span>
+        </div>
+
+        <div class="course-card-meta mt-2">
+          <span><i class="bi bi-clock"></i>52h</span>
+          <span><i class="bi bi-people"></i>48k students</span>
+        </div>
+
+        <div class="course-card-footer mt-3">
+          <span class="course-card-price">$111.99</span>
+          <button type="button" class="btn enroll-btn">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="text-center mt-5">
+  <p class="courses-footer-text">Showing 6 of 12,000+ courses</p>
+  <button type="button" class="btn load-more-btn">
+    <i class="bi bi-book"></i> Load More Courses
+  </button>
+</div>
+
+</div>
+
+<section class="categories-section">
+  <div class="container">
+    <h2 class="categories-title">Top Categories</h2>
+    <p class="categories-subtext mt-2">
+      Explore thousands of courses spanning a multitude of categories, designed to help you advance your career or discover a new passion.
+    </p>
+  </div>
+
+
+  <div class="row g-4 mt-4">
+  <div class="col-lg-3 col-md-6">
+    <div class="category-card">
+      <div class="category-icon">
+        <i class="bi bi-vector-pen"></i>
+      </div>
+      <div class="category-name">Design</div>
+      <div class="category-count mt-1">450+ Courses</div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="col-lg-3 col-md-6">
+  <div class="category-card">
+    <div class="category-icon">
+      <i class="bi bi-code-slash"></i>
+    </div>
+    <div class="category-name">Development</div>
+    <div class="category-count mt-1">850+ Courses</div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+  <div class="category-card">
+    <div class="category-icon">
+      <i class="bi bi-graph-up-arrow"></i>
+    </div>
+    <div class="category-name">Marketing</div>
+    <div class="category-count mt-1">320+ Courses</div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+  <div class="category-card">
+    <div class="category-icon">
+      <i class="bi bi-briefcase"></i>
+    </div>
+    <div class="category-name">Business</div>
+    <div class="category-count mt-1">540+ Courses</div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+  <div class="category-card">
+    <div class="category-icon">
+      <i class="bi bi-cpu"></i>
+    </div>
+    <div class="category-name">AI &amp; Data Science</div>
+    <div class="category-count mt-1">280+ Courses</div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+  <div class="category-card">
+    <div class="category-icon">
+      <i class="bi bi-laptop"></i>
+    </div>
+    <div class="category-name">IT &amp; Software</div>
+    <div class="category-count mt-1">620+ Courses</div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+  <div class="category-card">
+    <div class="category-icon">
+      <i class="bi bi-camera"></i>
+    </div>
+    <div class="category-name">Photography</div>
+    <div class="category-count mt-1">190+ Courses</div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+  <div class="category-card">
+    <div class="category-icon">
+      <i class="bi bi-music-note-beamed"></i>
+    </div>
+    <div class="category-name">Music</div>
+    <div class="category-count mt-1">150+ Courses</div>
+  </div>
+</div>
+
+<div class="text-center mt-5">
+  <button type="button" class="btn view-categories-btn">
+    View All Categories <i class="bi bi-arrow-right"></i>
+  </button>
+</div>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="how-it-works-section">
+  <div class="container">
+    <div class="how-eyebrow">Process</div>
+    <h2 class="how-title mt-1">How It Works</h2>
+    <p class="how-subtext mt-2">
+      Start learning today with our simple and straightforward three-step process designed to get you up and running quickly.
+    </p>
+  </div>
+
+
+
+ <div class="row mt-5 steps-row">
+  <div class="col-md-4 step-item">
+    <div class="step-icon-wrapper">
+      <div class="step-icon">
+        <i class="bi bi-search"></i>
+      </div>
+      <span class="step-number">1</span>
+    </div>
+    <h4 class="step-title">Browse Courses</h4>
+    <p class="step-description mt-2">
+      Explore our wide variety of courses from basic to advanced level and find what suits your goals.
+    </p>
+  </div>
+
+
+  <div class="col-md-4 step-item">
+  <div class="step-icon-wrapper">
+    <div class="step-icon">
+      <i class="bi bi-play-btn"></i>
+    </div>
+    <span class="step-number">2</span>
+  </div>
+  <h4 class="step-title">Enroll & Learn</h4>
+  <p class="step-description mt-2">
+    Purchase the course and start learning at your own pace with lifetime access to materials.
+  </p>
+</div>
+
+<div class="col-md-4 step-item">
+  <div class="step-icon-wrapper">
+    <div class="step-icon">
+      <i class="bi bi-award"></i>
+    </div>
+    <span class="step-number">3</span>
+  </div>
+  <h4 class="step-title">Get Certified</h4>
+  <p class="step-description mt-2">
+    Complete the course successfully and earn a certificate to showcase your newly acquired skills.
+  </p>
+</div>
+
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="testimonials-section">
+  <div class="container">
+    <h2 class="testimonials-title">What Our Students Say</h2>
+  </div>
+
+<!-- الكارت الاول-->
+  <div class="row g-4 mt-3">
+  <div class="col-lg-4 col-md-6">
+    <div class="testimonial-card">
+      <div class="testimonial-stars">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+      </div>
+      <p class="testimonial-text">
+        "The UI/UX design course completely transformed my career. The instructor explained complex concepts in such a simple way, and the practical projects were invaluable."
+      </p>
+      <div class="testimonial-author">
+        <img src="./images/Screenshot 2026-09-02 232754.png" alt="Jessica Wong">
+        <div>
+          <div class="testimonial-name">Jessica Wong</div>
+          <div class="testimonial-role">UX Designer at TechCorp</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- الكارت التاني -->
+<div class="col-lg-4 col-md-6">
+  <div class="testimonial-card">
+    <div class="testimonial-stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <p class="testimonial-text">
+      "I've taken many online courses, but LearnHub's platform is by far the best. The web development bootcamp gave me the skills I needed to land my first junior dev role."
+    </p>
+    <div class="testimonial-author">
+      <img src="./images/Screenshot 2026-09-02 232948.png" alt="Michael Roberts">
+      <div>
+        <div class="testimonial-name">Michael Roberts</div>
+        <div class="testimonial-role">Frontend Developer</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- الكارت التالت -->
+<div class="col-lg-4 col-md-6">
+  <div class="testimonial-card">
+    <div class="testimonial-stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star"></i>
+    </div>
+    <p class="testimonial-text">
+      "The Data Science curriculum is extremely rigorous and up-to-date with industry standards. The support from the community and instructors is phenomenal."
+    </p>
+    <div class="testimonial-author">
+      <img src="./images/Screenshot 2026-09-02 233054.png" alt="Elena Rodriguez">
+      <div>
+        <div class="testimonial-name">Elena Rodriguez</div>
+        <div class="testimonial-role">Data Analyst</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="instructors-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <h2 class="instructors-title">Learn From The Best</h2>
+        <p class="instructors-subtext mt-2">
+          Our instructors are passionate industry experts who are dedicated to helping you master new skills and advance your career.
+        </p>
+      </div>
+      <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+        <button type="button" class="btn see-all-btn">See all instructors <i class="bi bi-chevron-right"></i></button>
+      </div>
+    </div>
+
+
+
+<!-- الكارت الاول-->
+<div class="row g-4 mt-4">
+  <div class="col-lg-4 col-md-6">
+    <div class="instructor-card">
+      <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=500&q=80" alt="Dr. Alan Turing">
+      <div class="instructor-overlay">
+        <div class="instructor-name">Dr. Alan Turing</div>
+        <div class="instructor-role">Data Scientist &amp; AI Expert</div>
+        <div class="instructor-stats">
+          <span class="instructor-stat"><i class="bi bi-star-fill"></i> 4.9</span>
+          <span class="instructor-stat"><i class="bi bi-people-fill"></i> 120k+</span>
+          <span class="instructor-stat"><i class="bi bi-play-fill"></i> 14</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الكارت التاني -->
+  <div class="col-lg-4 col-md-6">
+    <div class="instructor-card">
+      <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=80" alt="Sarah Jenkins">
+      <div class="instructor-overlay">
+        <div class="instructor-name">Sarah Jenkins</div>
+        <div class="instructor-role">Senior UX/UI Designer</div>
+        <div class="instructor-stats">
+          <span class="instructor-stat"><i class="bi bi-star-fill"></i> 4.8</span>
+          <span class="instructor-stat"><i class="bi bi-people-fill"></i> 85k+</span>
+          <span class="instructor-stat"><i class="bi bi-play-fill"></i> 9</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الكارت التالت -->
+  <div class="col-lg-4 col-md-6">
+    <div class="instructor-card">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80" alt="David Miller">
+      <div class="instructor-overlay">
+        <div class="instructor-name">David Miller</div>
+        <div class="instructor-role">Full-Stack Developer</div>
+        <div class="instructor-stats">
+          <span class="instructor-stat"><i class="bi bi-star-fill"></i> 4.9</span>
+          <span class="instructor-stat"><i class="bi bi-people-fill"></i> 150k+</span>
+          <span class="instructor-stat"><i class="bi bi-play-fill"></i> 22</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="pricing-section">
+  <div class="container">
+    <h2 class="pricing-title">Choose Your <span class="highlight">Plan</span></h2>
+
+    <div class="row g-4 mt-4">
+      <div class="col-lg-4">
+  <div class="pricing-card">
+
+    <!-- الجزء البنفسجي -->
+    <div class="pricing-card-header">
+      <div class="pricing-header-top">
+        <div class="pricing-icon">
+          <i class="bi bi-lightning-charge-fill"></i>
+        </div>
+        <div>
+          <div class="pricing-plan-name">Starter</div>
+          <div class="pricing-plan-desc">Perfect for casual learners</div>
+        </div>
+      </div>
+      <div class="pricing-price">Free</div>
+    </div>
+
+    <!-- الجزء الأبيض -->
+    <ul class="pricing-features">
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Access to 100+ free courses</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Basic course certificates</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Community forum access</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Mobile app access</li>
+      <li class="disabled"><span class="feature-check"><i class="bi bi-check"></i></span> HD video quality</li>
+      <li class="disabled"><span class="feature-check"><i class="bi bi-check"></i></span> Offline downloads</li>
+      <li class="disabled"><span class="feature-check"><i class="bi bi-check"></i></span> Live Q&amp;A sessions</li>
+      <li class="disabled"><span class="feature-check"><i class="bi bi-check"></i></span> 1-on-1 mentorship</li>
+    </ul>
+    <button type="button" class="btn pricing-btn">Get Started Free</button>
+
+  </div>
+</div>
+
+
+
+
+<!-- كارت Pro -->
+<div class="col-lg-4">
+  <div class="pricing-card featured">
+    <div class="pricing-card-header">
+      <div class="pricing-header-top">
+        <div class="pricing-icon">
+          <i class="bi bi-star-fill"></i>
+        </div>
+        <div>
+          <div class="pricing-plan-name">Pro</div>
+          <div class="pricing-plan-desc">Best for serious learners</div>
+        </div>
+      </div>
+      <div class="pricing-price">$59<span class="price-period"> / month</span></div>
+    </div>
+
+    <ul class="pricing-features">
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Access to 12,000+ courses</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Professional certificates</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Community forum access</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Mobile app access</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> HD video quality</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Offline downloads</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Live Q&amp;A sessions</li>
+      <li class="disabled"><span class="feature-check"><i class="bi bi-check"></i></span> 1-on-1 mentorship</li>
+    </ul>
+    <button type="button" class="btn pricing-btn">Start Pro Plan</button>
+  </div>
+</div>
+
+<!-- كارت Enterprise -->
+<div class="col-lg-4">
+  <div class="pricing-card">
+    <div class="pricing-card-header">
+      <div class="pricing-header-top">
+        <div class="pricing-icon">
+          <i class="bi bi-award-fill"></i>
+        </div>
+        <div>
+          <div class="pricing-plan-name">Enterprise</div>
+          <div class="pricing-plan-desc">For teams &amp; organizations</div>
+        </div>
+      </div>
+      <div class="pricing-price">$79<span class="price-period"> / month</span></div>
+    </div>
+
+    <ul class="pricing-features">
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Access to 12,000+ courses</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Professional certificates</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Community forum access</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Mobile app access</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> HD video quality</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Offline downloads</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> Live Q&amp;A sessions</li>
+      <li><span class="feature-check"><i class="bi bi-check"></i></span> 1-on-1 mentorship</li>
+    </ul>
+    <button type="button" class="btn pricing-btn">Contact Sales</button>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="cta-section">
+  <h2 class="cta-title">Ready to Start Your Learning Journey?</h2>
+  <p class="cta-subtext">
+  Join over 50,000 students who are already learning new skills and advancing their careers with E-Learning.
+</p>
+<div class="cta-buttons">
+  <button type="button" class="btn cta-btn-primary">Get Started for Free <i class="bi bi-arrow-right"></i></button>
+  <button type="button" class="btn cta-btn-secondary">View All Courses</button>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">
+      <img src="./images/Frame 2121453483.png" alt="E-Learning Logo">
+    </div>
+
+
+    <p class="footer-newsletter-text">Subscribe to get our Newsletter</p>
+<div class="footer-newsletter-form">
+  <input type="email" class="footer-email-input" placeholder="Your Email">
+  <button type="button" class="footer-subscribe-btn">Subscribe</button>
+</div>
+
+
+
+<div class="footer-links">
+  <a href="javascript:void(0)">Careers</a> |
+  <a href="javascript:void(0)">Privacy Policy</a> |
+  <a href="javascript:void(0)">Terms &amp; Conditions</a>
+</div>
+<p class="footer-copyright">© 2026 Class Technologies Inc.</p>
+
+  </div>
+</footer>
+
+</body>
+</html>
